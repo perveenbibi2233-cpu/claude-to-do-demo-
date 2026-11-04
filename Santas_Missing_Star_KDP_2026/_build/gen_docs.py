@@ -8,7 +8,7 @@ import book as B
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 W = lambda rel, txt: open(os.path.join(ROOT, rel), "w").write(txt)
 REF = "Attach as references: "
-SHEETS = {"Pip": "Pip_fox.png", "Mimi": "Mimi_rabbit.png", "Bramble": "Bramble_bear.png", "Tinsel": "Tinsel_reindeer.png",
+SHEETS = {"Pip": "Pip_fox.png", "Mimi": "Mimi_rabbit.png", "Bramble": "Bramble_bear.png", "Tinsel": "Tinsel_reference_pink_nose.png (make it first, prompt C3)",
           "Santa": "Santa_reference.png (make it first, prompt C1)", "Goldie": "Goldie_reference.png (make it first, prompt C2)"}
 
 
@@ -74,7 +74,11 @@ P += ["## C. Character references to make first", "",
       f"{REF}{SHEETS['Pip']}, Tinsel_reindeer_lineup_with_Santa.png", "",
       "### C2 → `05_Art_Inbox/characters/Goldie_reference.png`",
       f"```\n{B.STYLE}\n\nCharacter reference sheet on a plain warm-white background, 3:2 landscape: front, side, back and flying views plus four expressions (shy, happy, worried, singing) of:\n{B.LOCK['Goldie']}\nInclude one view of Goldie sitting in Pip's cupped front paws for scale.\n{B.LOCK['Pip']}\n```",
-      f"{REF}{SHEETS['Pip']}", ""]
+      f"{REF}{SHEETS['Pip']}", "",
+      "### C3 → `05_Art_Inbox/characters/Tinsel_reference_pink_nose.png`",
+      "Your original Tinsel sheets show a red nose. Remake the sheet once with the new nose so every scene uses the pink version.",
+      f"```\n{B.STYLE}\n\nRedraw the attached Tinsel character reference sheet EXACTLY as it is (same layout, pose, turnaround views, expressions, colours, spots, antlers, red collar and golden bell) with ONE change only: her nose is now a soft rosy pink instead of red. Plain warm-white background, 3:2 landscape.\n{B.LOCK['Tinsel']}\n```",
+      f"{REF}Tinsel_reindeer.png. After this, attach only the new pink-nose sheet for Tinsel, never the old red-nose ones.", ""]
 P += ["## S. Scene spreads (3:2 landscape, 1536×1024 or larger)", ""]
 for s in B.SPREADS:
     a, b = s["pages"]
@@ -110,13 +114,14 @@ W("04_Art_Prompts/Art_Prompt_Pack.md", "\n".join(P))
 C = ["# Art Checklist", "", "Tick each file off as it lands in `05_Art_Inbox/`.", "",
      "| # | File | Shape | Used on |", "|---|---|---|---|",
      "| C1 | `characters/Santa_reference.png` | 3:2 | reference only |",
-     "| C2 | `characters/Goldie_reference.png` | 3:2 | reference only |"]
+     "| C2 | `characters/Goldie_reference.png` | 3:2 | reference only |",
+     "| C3 | `characters/Tinsel_reference_pink_nose.png` | 3:2 | reference only |"]
 for i, s in enumerate(B.SPREADS, 1):
     C.append(f"| S{i} | `scenes/{s['key']}.png` | 3:2 | pages {s['pages'][0]}–{s['pages'][1]} |")
 C += [f"| T1 | `singles/p01_title.png` | 2:3 | page 1 |", "| T2 | `singles/s14_spot_difference.png` | 1:1 | pages 28–29 |",
       "| T3 | `singles/p32_goodnight.png` | 2:3 | page 32 |", "| K1 | `singles/cover_front.png` | 2:3 | front cover |", "| K2 | `singles/cover_back.png` | 2:3 | back cover |"]
 C += [f"| O{i} | `stickers/{k}.png` | 1:1 | hidden objects |" for i, k in enumerate(B.STICKER_SHEETS, 1)]
-C += ["", f"**Total: {2 + len(B.SPREADS) + 5 + len(B.STICKER_SHEETS)} images.**"]
+C += ["", f"**Total: {3 + len(B.SPREADS) + 5 + len(B.STICKER_SHEETS)} images.**"]
 W("04_Art_Prompts/Art_Checklist.md", "\n".join(C))
 
 # ------------------------------------------------------------------ page plan
@@ -142,7 +147,7 @@ for s in B.SPREADS:
 W("03_Page_Plan/Page_Plan.md", "\n".join(L))
 
 # ------------------------------------------------------------------ character lock
-CL = [f"# Character Lock: {B.TITLE}", "", "Reference sheets you supplied are in `reference_sheets/`. Santa and Goldie need sheets made first (prompts C1, C2).", ""]
+CL = [f"# Character Lock: {B.TITLE}", "", "Reference sheets you supplied are in `reference_sheets/`. Santa and Goldie need sheets made first (prompts C1, C2). Tinsel's sheet is remade with her new rosy-pink nose (prompt C3); the original red-nose sheets are kept for reference only and must not be attached to scene prompts.", ""]
 for n, d in B.LOCK.items():
     CL += [f"## {n}", d.split(": ", 1)[1], "", f"Reference: `{SHEETS[n]}`", ""]
 CL += ["## Size ladder (shortest → tallest)", "Goldie (fits in Pip's paws) → Mimi (⅔ of Pip) → Tinsel (to Pip's shoulder, antlers above) → Pip → Bramble (a little taller and wider) → Santa (Pip reaches below his knee).", "",

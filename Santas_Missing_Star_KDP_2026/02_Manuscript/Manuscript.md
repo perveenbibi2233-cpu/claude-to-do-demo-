@@ -13,7 +13,7 @@ Pip the little fox stepped forward. “Don't worry, Santa. We'll find it!”
 “We'll help too!” said Mimi, Bramble and Tinsel.
 
 *Look for clues on every page, and find all the hidden objects along the way!*
-*Psst! Our friends' own scarves, hats, jumpers, noses and bells don't count.*
+*Psst! Our friends' own scarves, hats, jumpers and bells don't count.*
 
 ## Pages 4–5: Santa's Toy Workshop
 
@@ -57,7 +57,7 @@ Tucked in the straw was another golden feather. “Who keeps dropping feathers?�
 
 **Can you find all five hidden objects? Look carefully!**
 
-- 4 red noses
+- 4 horseshoes
 - 3 golden bells
 - 5 carrots
 - 2 blue scarves

@@ -34,7 +34,7 @@ LOCK = {
     "Bramble": "Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, "
                "rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.",
     "Tinsel": "Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, "
-              "large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, "
+              "large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, "
               "red collar with one small golden bell. No other accessories.",
     "Santa": "Santa Claus: kind elderly man (about 65–70), tall and broad with a gentle round belly, rosy cheeks, warm dark blue eyes, thick fluffy white eyebrows, "
              "full fluffy white beard to his upper chest, white hair at the sides, pinkish-red round nose, bright red coat and trousers with white fur trim, "
@@ -43,7 +43,7 @@ LOCK = {
               "small orange-yellow beak, short rounded wings, three short golden tail feathers, tiny orange feet, a small feather crest. No clothing.",
 }
 
-FRIENDS_RULE = "Psst! Our friends' own scarves, hats, jumpers, noses and bells don't count."
+FRIENDS_RULE = "Psst! Our friends' own scarves, hats, jumpers and bells don't count."
 
 # Target "method": sticker = drawn separately and placed by the layout tool (exact count guaranteed);
 #                  scene   = must be painted into the scene by the image tool with the exact count, then hand-verified.
@@ -83,11 +83,11 @@ SPREADS = [
          text=["In the Reindeer Stable, everyone was getting ready for the big night.",
                "“This is where I live!” said Tinsel proudly.",
                "Tucked in the straw was another golden feather. “Who keeps dropping feathers?” wondered Mimi."],
-         targets=[T(4, "red noses", "scene", "Exactly four grown-up reindeer in the stalls, each with a red nose. Tinsel's own nose does not count (friends rule)."),
+         targets=[T(4, "horseshoes", "sticker", "Shiny horseshoes hanging on the walls or lying in the straw."),
                   T(3, "golden bells"), T(5, "carrots"), T(2, "blue scarves", "sticker", "Royal blue, clearly different from Pip's teal scarf; hanging on pegs."),
                   T(1, "golden feather")],
          scene="A warm wooden stable with four stalls, hay bales, straw on the floor, harness straps and red blankets on pegs, lanterns, a hayloft ladder, snow visible through the big open door. "
-               "EXACTLY FOUR grown-up reindeer stand in the stalls (each with a red nose), friendly and smiling. Tinsel prances proudly in front; Pip and Mimi look around; Bramble pats a hay bale.",
+               "Four grown-up reindeer with ordinary dark brown noses stand in the stalls, friendly and smiling. Tinsel prances proudly in front; Pip and Mimi look around; Bramble pats a hay bale.",
          chars=["Pip", "Mimi", "Bramble", "Tinsel"]),
 
     dict(pages=(10, 11), key="s05_snowflake_forest", title="Snowflake Forest",
@@ -208,7 +208,7 @@ PAGE_ORDER = (["1: Title page"] + [f"{a}–{b}: {s['title']}" for s in SPREADS f
 STICKER_SHEETS = {
     "sheet_A_toys":    ["teddy bear", "red toy train", "toy drum", "wooden doll", "wrapped present with ribbon", "golden bell"],
     "sheet_B_treats":  ["red-and-white striped candy cane", "gingerbread man", "round iced gingerbread cookie", "cupcake with frosting", "wooden rolling pin", "carrot"],
-    "sheet_C_winter":  ["small snowman", "red mitten", "royal-blue knitted scarf", "snowball", "single ice skate", "red lantern", "small suitcase"],
+    "sheet_C_winter":  ["small snowman", "red mitten", "royal-blue knitted scarf", "snowball", "single ice skate", "red lantern", "small suitcase", "shiny horseshoe"],
     "sheet_D_nature":  ["large sparkly snowflake", "pinecone", "single shiny red berry", "small bluebird", "brown wild rabbit curled up asleep", "penguin", "blue fish"],
     "sheet_E_golden":  ["golden feather", "tiny golden star with sparkles", "big shiny golden star", "round Christmas bauble ornament", "golden ribbon bow"],
 }

@@ -6,6 +6,7 @@ Tick each file off as it lands in `05_Art_Inbox/`.
 |---|---|---|---|
 | C1 | `characters/Santa_reference.png` | 3:2 | reference only |
 | C2 | `characters/Goldie_reference.png` | 3:2 | reference only |
+| C3 | `characters/Tinsel_reference_pink_nose.png` | 3:2 | reference only |
 | S1 | `scenes/s01_missing_star.png` | 3:2 | pages 2–3 |
 | S2 | `scenes/s02_toy_workshop.png` | 3:2 | pages 4–5 |
 | S3 | `scenes/s03_candy_cane_village.png` | 3:2 | pages 6–7 |
@@ -30,4 +31,4 @@ Tick each file off as it lands in `05_Art_Inbox/`.
 | O4 | `stickers/sheet_D_nature.png` | 1:1 | hidden objects |
 | O5 | `stickers/sheet_E_golden.png` | 1:1 | hidden objects |
 
-**Total: 25 images.**
+**Total: 26 images.**

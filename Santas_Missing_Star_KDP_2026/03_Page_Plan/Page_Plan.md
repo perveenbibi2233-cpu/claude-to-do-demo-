@@ -32,7 +32,7 @@ Page 1 is a right-hand page, so the facing pairs in a printed book are 2–3, 4�
 > “We'll help too!” said Mimi, Bramble and Tinsel.
 
 > *Look for clues on every page, and find all the hidden objects along the way!*
-> *Psst! Our friends' own scarves, hats, jumpers, noses and bells don't count.*
+> *Psst! Our friends' own scarves, hats, jumpers and bells don't count.*
 
 **Illustration:** Santa's snowy Christmas village at dusk: candy-coloured cottages with glowing windows, Santa's enormous Christmas tree in the town square, dressed in garlands and warm fairy lights (no baubles yet), with an EMPTY treetop (no star). Right page: Santa stands beside the tree, hands on his cheeks in surprise, looking up at the empty top. Pip stands in front of Santa, chest out, brave and determined, with Mimi, Bramble and Tinsel gathered close behind him looking up. Left page: the village street leading to the square, lantern light, gentle falling snow.
 
@@ -88,13 +88,13 @@ Page 1 is a right-hand page, so the facing pairs in a printed book are 2–3, 4�
 
 **Search panel (right page, bottom-right):** “Can you find all five hidden objects? Look carefully!”
 
-- 4 red noses: *Exactly four grown-up reindeer in the stalls, each with a red nose. Tinsel's own nose does not count (friends rule).* (painted in scene, verified by hand)
+- 4 horseshoes: *Shiny horseshoes hanging on the walls or lying in the straw.* (placed from sticker sheet)
 - 3 golden bells (placed from sticker sheet)
 - 5 carrots (placed from sticker sheet)
 - 2 blue scarves: *Royal blue, clearly different from Pip's teal scarf; hanging on pegs.* (placed from sticker sheet)
 - 1 golden feather (placed from sticker sheet)
 
-**Illustration:** A warm wooden stable with four stalls, hay bales, straw on the floor, harness straps and red blankets on pegs, lanterns, a hayloft ladder, snow visible through the big open door. EXACTLY FOUR grown-up reindeer stand in the stalls (each with a red nose), friendly and smiling. Tinsel prances proudly in front; Pip and Mimi look around; Bramble pats a hay bale.
+**Illustration:** A warm wooden stable with four stalls, hay bales, straw on the floor, harness straps and red blankets on pegs, lanterns, a hayloft ladder, snow visible through the big open door. Four grown-up reindeer with ordinary dark brown noses stand in the stalls, friendly and smiling. Tinsel prances proudly in front; Pip and Mimi look around; Bramble pats a hay bale.
 
 **Characters:** Pip, Mimi, Bramble, Tinsel
 

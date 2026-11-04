@@ -28,6 +28,16 @@ Pip: small orange-red fox cub (the hero, our height reference), rounded soft bod
 ```
 Attach as references: Pip_fox.png
 
+### C3 → `05_Art_Inbox/characters/Tinsel_reference_pink_nose.png`
+Your original Tinsel sheets show a red nose. Remake the sheet once with the new nose so every scene uses the pink version.
+```
+Warm, polished 2D children's picture-book illustration with soft painterly brush textures and gentle shading, richly detailed cozy Christmas environment, glowing golden light, bright harmonious colours, cute expressive characters. Not 3D, not photorealistic, not flat vector clip art. No text, letters, numbers, signatures or watermarks anywhere in the image.
+
+Redraw the attached Tinsel character reference sheet EXACTLY as it is (same layout, pose, turnaround views, expressions, colours, spots, antlers, red collar and golden bell) with ONE change only: her nose is now a soft rosy pink instead of red. Plain warm-white background, 3:2 landscape.
+Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+```
+Attach as references: Tinsel_reindeer.png. After this, attach only the new pink-nose sheet for Tinsel, never the old red-nose ones.
+
 ## S. Scene spreads (3:2 landscape, 1536×1024 or larger)
 
 ### Pages 2–3: The Missing Star → `05_Art_Inbox/scenes/s01_missing_star.png`
@@ -43,11 +53,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Santa_reference.png (make it first, prompt C1), Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Santa_reference.png (make it first, prompt C1), Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 4–5: Santa's Toy Workshop → `05_Art_Inbox/scenes/s02_toy_workshop.png`
 ```
@@ -62,11 +72,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 6–7: Candy Cane Village → `05_Art_Inbox/scenes/s03_candy_cane_village.png`
 ```
@@ -81,11 +91,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 8–9: The Reindeer Stable → `05_Art_Inbox/scenes/s04_reindeer_stable.png`
 ```
@@ -93,19 +103,18 @@ Warm, polished 2D children's picture-book illustration with soft painterly brush
 
 Wide landscape double-page picture-book spread, 3:2 aspect ratio (1536×1024).
 
-SCENE: A warm wooden stable with four stalls, hay bales, straw on the floor, harness straps and red blankets on pegs, lanterns, a hayloft ladder, snow visible through the big open door. EXACTLY FOUR grown-up reindeer stand in the stalls (each with a red nose), friendly and smiling. Tinsel prances proudly in front; Pip and Mimi look around; Bramble pats a hay bale.
-IMPORTANT, do NOT include any of these anywhere in the picture (they are added separately later): golden bells, carrots, blue scarves, feathers.
-Include EXACTLY: 4 red noses (Exactly four grown-up reindeer in the stalls, each with a red nose. Tinsel's own nose does not count (friends rule).).
+SCENE: A warm wooden stable with four stalls, hay bales, straw on the floor, harness straps and red blankets on pegs, lanterns, a hayloft ladder, snow visible through the big open door. Four grown-up reindeer with ordinary dark brown noses stand in the stalls, friendly and smiling. Tinsel prances proudly in front; Pip and Mimi look around; Bramble pats a hay bale.
+IMPORTANT, do NOT include any of these anywhere in the picture (they are added separately later): horseshoes, golden bells, carrots, blue scarves, feathers.
 
 CHARACTERS (match the attached reference sheets exactly: same faces, proportions, colours and clothing):
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 10–11: Snowflake Forest → `05_Art_Inbox/scenes/s05_snowflake_forest.png`
 ```
@@ -120,11 +129,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 12–13: Santa's Gift Room → `05_Art_Inbox/scenes/s06_gift_room.png`
 ```
@@ -139,11 +148,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 14–15: The Gingerbread Bakery → `05_Art_Inbox/scenes/s07_gingerbread_bakery.png`
 ```
@@ -158,11 +167,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 16–17: The Frozen Ice Lake → `05_Art_Inbox/scenes/s08_frozen_ice_lake.png`
 ```
@@ -177,11 +186,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 18–19: The Christmas Train Station → `05_Art_Inbox/scenes/s09_train_station.png`
 ```
@@ -196,11 +205,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 20–21: Northern Lights Hill → `05_Art_Inbox/scenes/s10_northern_lights_hill.png`
 ```
@@ -216,11 +225,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 22–23: Christmas Tree Square → `05_Art_Inbox/scenes/s11_tree_square.png`
 ```
@@ -235,11 +244,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep the bottom-right corner (about 35% wide × 35% tall) calm and simple for the search list. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ### Pages 24–25: Goldie's Secret → `05_Art_Inbox/scenes/s12_goldies_secret.png`
 ```
@@ -253,12 +262,12 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 - Goldie: a very tiny round fluffy golden-yellow bird (small enough to sit in Pip's front paws), buttery-yellow feather highlights, large sparkling dark brown eyes, small orange-yellow beak, short rounded wings, three short golden tail feathers, tiny orange feet, a small feather crest. No clothing.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Pip_fox.png, Bramble_bear.png, Mimi_rabbit.png, Tinsel_reindeer.png, Goldie_reference.png (make it first, prompt C2)
+Attach as references: Pip_fox.png, Bramble_bear.png, Mimi_rabbit.png, Tinsel_reference_pink_nose.png (make it first, prompt C3), Goldie_reference.png (make it first, prompt C2)
 
 ### Pages 26–27: The Christmas Celebration → `05_Art_Inbox/scenes/s13_celebration.png`
 ```
@@ -274,11 +283,11 @@ CHARACTERS (match the attached reference sheets exactly: same faces, proportions
 - Goldie: a very tiny round fluffy golden-yellow bird (small enough to sit in Pip's front paws), buttery-yellow feather highlights, large sparkling dark brown eyes, small orange-yellow beak, short rounded wings, three short golden tail feathers, tiny orange feet, a small feather crest. No clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 
 LAYOUT: Keep the vertical middle strip (centre 12% of the width) free of faces, characters and important objects, because it falls in the book's binding. Keep the top-left area (about 40% wide × 30% tall) calm and simple (sky, wall or snow) for story text. Keep all characters at least 5% away from every edge. No text anywhere.
 ```
-Attach as references: Santa_reference.png (make it first, prompt C1), Pip_fox.png, Goldie_reference.png (make it first, prompt C2), Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Santa_reference.png (make it first, prompt C1), Pip_fox.png, Goldie_reference.png (make it first, prompt C2), Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ## T. Title, bonus and closing pictures
 
@@ -295,12 +304,12 @@ CHARACTERS (match the attached reference sheets exactly):
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 - Goldie: a very tiny round fluffy golden-yellow bird (small enough to sit in Pip's front paws), buttery-yellow feather highlights, large sparkling dark brown eyes, small orange-yellow beak, short rounded wings, three short golden tail feathers, tiny orange feet, a small feather crest. No clothing.
 
 No text anywhere.
 ```
-Attach as references: Santa_reference.png (make it first, prompt C1), Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png, Goldie_reference.png (make it first, prompt C2)
+Attach as references: Santa_reference.png (make it first, prompt C1), Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3), Goldie_reference.png (make it first, prompt C2)
 
 ### Page 32: Christmas message + copyright → `05_Art_Inbox/singles/p32_goodnight.png`
 ```
@@ -314,12 +323,12 @@ CHARACTERS (match the attached reference sheets exactly):
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 - Goldie: a very tiny round fluffy golden-yellow bird (small enough to sit in Pip's front paws), buttery-yellow feather highlights, large sparkling dark brown eyes, small orange-yellow beak, short rounded wings, three short golden tail feathers, tiny orange feet, a small feather crest. No clothing.
 
 No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png, Goldie_reference.png (make it first, prompt C2)
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3), Goldie_reference.png (make it first, prompt C2)
 
 ### Pages 28–29: Spot-the-difference base picture → `05_Art_Inbox/singles/s14_spot_difference.png`
 ```
@@ -331,12 +340,12 @@ CHARACTERS (match the attached reference sheets exactly):
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 - Goldie: a very tiny round fluffy golden-yellow bird (small enough to sit in Pip's front paws), buttery-yellow feather highlights, large sparkling dark brown eyes, small orange-yellow beak, short rounded wings, three short golden tail feathers, tiny orange feet, a small feather crest. No clothing.
 
 No text anywhere.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png, Goldie_reference.png (make it first, prompt C2)
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3), Goldie_reference.png (make it first, prompt C2)
 I make the second picture with exactly five changes, so the answer key is exact.
 
 ## K. Covers
@@ -351,10 +360,10 @@ CHARACTERS (match the attached reference sheets exactly):
 - Pip: small orange-red fox cub (the hero, our height reference), rounded soft body, large rounded head, large warm amber-brown eyes, upright triangular ears with dark brown tips and cream insides, cream muzzle and chest, tiny dark brown nose, dark brown lower legs and paws, big fluffy orange-red tail with cream-white tip, teal knitted scarf with small white snowflake motifs wrapped twice around the neck with two fringed ends on the chest. No other clothing.
 - Mimi: petite fluffy round white rabbit, about two-thirds of Pip's height, large violet-brown eyes, long upright white ears with pink insides, tiny pink triangular nose, small round tail, lavender cable-knit winter hat with a round lavender pom-pom, ears poking up through the hat. No other clothing.
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 - Goldie: a very tiny round fluffy golden-yellow bird (small enough to sit in Pip's front paws), buttery-yellow feather highlights, large sparkling dark brown eyes, small orange-yellow beak, short rounded wings, three short golden tail feathers, tiny orange feet, a small feather crest. No clothing.
 ```
-Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reindeer.png, Goldie_reference.png (make it first, prompt C2)
+Attach as references: Pip_fox.png, Mimi_rabbit.png, Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3), Goldie_reference.png (make it first, prompt C2)
 
 ### Back cover → `05_Art_Inbox/singles/cover_back.png`
 ```
@@ -364,9 +373,9 @@ Portrait 2:3 (1024×1536). Matching night-time Christmas village scene, calm and
 
 CHARACTERS:
 - Bramble: round, sturdy chestnut-brown bear cub, a little taller and wider than Pip, small round ears, honey-brown eyes, cream muzzle, dark brown nose, rounded paws, bright red knitted Christmas jumper with a large white snowflake on the chest and white Nordic pattern bands. No hat or scarf.
-- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, bright red round nose, dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
+- Tinsel: small, slightly plump caramel-brown baby reindeer, about Pip's shoulder height, cream muzzle and chest, small cream spots on her back, large dark brown eyes with lashes, tiny symmetrical light-brown branching antlers, soft rosy-pink round nose (rosy pink, NOT red), dark chocolate hooves, fluffy cream-tipped tail, red collar with one small golden bell. No other accessories.
 ```
-Attach as references: Bramble_bear.png, Tinsel_reindeer.png
+Attach as references: Bramble_bear.png, Tinsel_reference_pink_nose.png (make it first, prompt C3)
 
 ## O. Hidden-object sticker sheets
 
@@ -390,7 +399,7 @@ Sticker sheet on a PLAIN, FLAT, PURE WHITE background (no shadows on the backgro
 ```
 Warm, polished 2D children's picture-book illustration with soft painterly brush textures and gentle shading, glowing golden light, bright harmonious colours, cute expressive characters. Not 3D, not photorealistic, not flat vector clip art. No text, letters, numbers, signatures or watermarks anywhere in the image.
 
-Sticker sheet on a PLAIN, FLAT, PURE WHITE background (no shadows on the background, no floor, no scenery). Square 1:1 (1024×1024). Arrange in a neat grid with lots of empty white space between every item; nothing touching or overlapping. Draw each of these objects THREE times, in three slightly different angles or poses, all in the same storybook style: small snowman, red mitten, royal-blue knitted scarf, snowball, single ice skate, red lantern, small suitcase. Each object clearly outlined, cheerful and easy for a 3-year-old to recognise.
+Sticker sheet on a PLAIN, FLAT, PURE WHITE background (no shadows on the background, no floor, no scenery). Square 1:1 (1024×1024). Arrange in a neat grid with lots of empty white space between every item; nothing touching or overlapping. Draw each of these objects THREE times, in three slightly different angles or poses, all in the same storybook style: small snowman, red mitten, royal-blue knitted scarf, snowball, single ice skate, red lantern, small suitcase, shiny horseshoe. Each object clearly outlined, cheerful and easy for a 3-year-old to recognise.
 ```
 
 ### `05_Art_Inbox/stickers/sheet_D_nature.png`
