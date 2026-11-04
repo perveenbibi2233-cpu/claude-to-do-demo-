@@ -18,7 +18,7 @@ import book as B
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-ART = os.path.join(ROOT, "05_Art_Inbox", "prepared")
+ART = os.environ.get("ART_DIR") or os.path.join(ROOT, "05_Art_Inbox", "prepared")
 for n, f in [("Andika", "Andika-Regular.ttf"), ("Andika-Bold", "Andika-Bold.ttf"), ("Fredoka", "Fredoka-SemiBold.ttf"),
              ("Fredoka-Bold", "Fredoka-Bold.ttf"), ("Fredoka-Medium", "Fredoka-Medium.ttf")]:
     pdfmetrics.registerFont(TTFont(n, os.path.join(HERE, "fonts", f)))
