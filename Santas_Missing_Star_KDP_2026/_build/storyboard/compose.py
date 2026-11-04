@@ -48,7 +48,7 @@ CAST = {
     "s09_train_station": [("mimi_curious", .24, .93, 1.1), ("pip_side", .38, .93, 1), ("bramble_front", .62, .93, 1), ("tinsel_front", .70, .93, 1)],
     "s10_northern_lights_hill": [("mimi_front", .22, .93, 1), ("pip_front", .36, .93, 1), ("bramble_surprised", .62, .93, 1), ("tinsel_side", .70, .93, 1)],
     "s11_tree_square": [("pip_thinking", .24, .93, 1.05), ("mimi_curious", .37, .93, 1), ("bramble_front", .62, .93, 1), ("tinsel_front", .70, .93, 1)],
-    "s12_goldies_secret": [("bramble_excited", .30, .94, 1.1), ("pip_happy", .30, .45, 0.85), ("mimi_front", .62, .94, 1), ("tinsel_front", .72, .94, 1)],
+    "s12_goldies_secret": [("mimi_front", .14, .94, 1), ("tinsel_front", .27, .94, 1), ("bramble_excited", .64, .94, 1.1), ("pip_happy", .64, .60, 0.85)],
     "s13_celebration": [("santa", .26, .93, 1), ("pip_happy", .40, .55, 0.8), ("mimi_happy", .62, .93, 1), ("bramble_excited", .70, .93, 1), ("tinsel_front", .78, .80, 0.8)],
     "p01_title": [("santa", .74, .93, 0.62), ("bramble_front", .52, .95, 1.0), ("tinsel_front", .30, .96, 1.0), ("pip_hero", .50, .97, 0.95), ("mimi_front", .14, .97, 1.15)],
     "p32_goodnight": [("pip_happy", .45, .74, 1.3), ("mimi_happy", .24, .76, 1.6), ("bramble_happy", .70, .74, 1.3), ("tinsel_front", .88, .76, 1.2)],
@@ -110,8 +110,12 @@ def badge(canvas, xr, y, text):
     d.text((x0 + pad, y + pad * 0.7), text, font=f, fill=(190, 40, 45))
 
 
+BGDIR = os.path.join(HERE, "bg")
+
+
 def build(key, W, H, spread):
-    c = background(key, W, H)
+    p = os.path.join(BGDIR, key + ".png")
+    c = Image.open(p).convert("RGBA").resize((W, H), Image.LANCZOS) if os.path.exists(p) else background(key, W, H)
     for name, x, y, m in CAST[key]:
         paste(c, name, x, y, m)
     bt = H * 0.035
@@ -124,7 +128,7 @@ def build(key, W, H, spread):
         badge(c, W * 0.93, H * 0.335, "ROUGH LAYOUT · not final art")
     if key in EMPTY_NOTE:
         f = ImageFont.truetype(FONT, int(H * 0.02)); d = ImageDraw.Draw(c)
-        tx = W * (0.53 if spread else 0.05); ty = H * (0.60 if spread else 0.55)
+        tx = W * ((0.70 if key == "s12_goldies_secret" else 0.53) if spread else 0.05); ty = H * ((0.50 if key == "s12_goldies_secret" else 0.60) if spread else 0.55)
         d.rounded_rectangle((tx, ty, tx + d.textlength(EMPTY_NOTE[key], font=f) + 30, ty + f.size + 22), radius=12, fill=(255, 248, 225, 230))
         d.text((tx + 15, ty + 9), EMPTY_NOTE[key], font=f, fill=(120, 90, 30))
     c.convert("RGB").save(os.path.join(OUT, key + ".jpg"), quality=88)
