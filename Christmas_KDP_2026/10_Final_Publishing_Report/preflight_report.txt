@@ -1,0 +1,23 @@
+KDP PREFLIGHT REPORT: Juniper and the Little Lost Star
+Interior: Juniper_Interior_8.5x8.5_32pp_bleed.pdf  (29.1 MB)
+Cover:    Juniper_Cover_FullWrap_17.3251x8.75in.pdf  (2.8 MB)
+
+[PASS] Interior page count is 32 (KDP paperback minimum is 24)  (32 pages)
+[PASS] Every interior page is 8.625 x 8.75 in (8.5 x 8.5 trim + bleed)  ({(8.625, 8.75)})
+[PASS] All interior fonts embedded  (5 font objects: AAAAAA+Andika, AAAAAA+Andika-Bold, AAAAAA+Fredoka-Bold, AAAAAA+Fredoka-Medium, AAAAAA+Fredoka-SemiBold)
+[PASS] Every illustration is at least 300 DPI at placed size  (lowest effective DPI = 300.0)
+[PASS] No placeholder text in interior
+[PASS] No blank pages  ([])
+[PASS] No text within 0.5 in of any page edge (bleed + 0.375 in margin)  (all 32 pages clear)
+[PASS] Page order matches the 32-page plan
+[PASS] Cover size 17.3251 x 8.75 in (0.125 bleed + 8.5 + 0.0751 spine + 8.5 + 0.125)  (17.3251 x 8.7500 in)
+[PASS] Cover is a single page
+[PASS] All cover fonts embedded  (4 font objects)
+[PASS] Cover art at least 300 DPI  (5198x2625 px = 300.0 DPI)
+[PASS] No spine text (KDP prints spine text only on books over 79 pages)  (spine = 0.0751 in)
+[PASS] Barcode area (2 x 1.2 in, back lower-right) has no text  (x 6.375-8.375 in, y-from-top 7.175-8.375 in)
+[PASS] No cover text within 0.25 in of trim / spine fold
+[PASS] No text on or near spine
+[PASS] Story length within 1,000-1,400 words  (1013 words)
+
+Not automatable here (do these in KDP): Print Previewer review, cover calculator template overlay, ordering a proof copy.

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2588" height="2625" viewBox="0 0 2588 2625">
+<defs>
+ <radialGradient id="glow" r="0.5"><stop offset="0" stop-color="#FFF6C8" stop-opacity="0.95"/>
+   <stop offset="0.35" stop-color="#FFD966" stop-opacity="0.45"/><stop offset="1" stop-color="#FFC94A" stop-opacity="0"/></radialGradient>
+ <radialGradient id="warmglow" r="0.5"><stop offset="0" stop-color="#FFE7A8" stop-opacity="0.9"/>
+   <stop offset="0.4" stop-color="#FFB85C" stop-opacity="0.35"/><stop offset="1" stop-color="#FF9A3C" stop-opacity="0"/></radialGradient>
+ <radialGradient id="starfill" cx="0.45" cy="0.35" r="0.7"><stop offset="0" stop-color="#FFF4B8"/>
+   <stop offset="0.55" stop-color="#FFD54A"/><stop offset="1" stop-color="#F5A623"/></radialGradient>
+ <radialGradient id="paleStar" cx="0.45" cy="0.35" r="0.7"><stop offset="0" stop-color="#FFF9E0"/>
+   <stop offset="0.6" stop-color="#F3E3A6"/><stop offset="1" stop-color="#D9C27E"/></radialGradient>
+ <radialGradient id="moon" cx="0.4" cy="0.4" r="0.6"><stop offset="0" stop-color="#FFFDF2"/><stop offset="1" stop-color="#F3E6B8"/></radialGradient>
+ <linearGradient id="spikeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B07F57"/><stop offset="0.5" stop-color="#6B4430"/><stop offset="1" stop-color="#4A2E20"/></linearGradient>
+ <linearGradient id="gspikeG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CBBFB3"/><stop offset="1" stop-color="#8E8079"/></linearGradient>
+ <linearGradient id="faceG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FBEBD0"/><stop offset="1" stop-color="#E9C99C"/></linearGradient>
+ <linearGradient id="snowG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C9D8EE"/></linearGradient>
+ <linearGradient id="snowNight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCE7F8"/><stop offset="1" stop-color="#8FA7CF"/></linearGradient>
+ <linearGradient id="foxG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F29A55"/><stop offset="1" stop-color="#DB6A2A"/></linearGradient>
+ <linearGradient id="burrowG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A4E30"/><stop offset="1" stop-color="#4E301E"/></linearGradient>
+ <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+ <filter id="blur20"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="blur50"><feGaussianBlur stdDeviation="50"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="2.5"/></filter>
+ <filter id="grain" x="0" y="0" width="100%" height="100%">
+   <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+   <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.5  0 0 0 0 0.45  0 0 0 0 0.4  0 0 0 0.10 0"/>
+ </filter>
+ <filter id="paper" x="0" y="0" width="100%" height="100%">
+   <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="3" seed="3" result="n"/>
+   <feColorMatrix in="n" type="matrix" values="0 0 0 0 1  0 0 0 0 0.95  0 0 0 0 0.85  0 0 0 0.10 0"/>
+ </filter>
+</defs><rect width="2588" height="2625" fill="#FBF4E6"/><g transform="translate(2150.0,2390.0) rotate(0) scale(1.5,1.5)"><path d="M-5,0 L-12,-40 M15,0 L12,-40" stroke="#6B4A2A" stroke-width="7" stroke-linecap="round"/><path d="M-70,-90 L-150,-60 L-140,-110 Z" fill="#5A3A24"/><ellipse cx="0" cy="-105" rx="88" ry="78" fill="#7A5236"/><ellipse cx="34" cy="-92" rx="56" ry="58" fill="#E8582F"/><circle cx="38" cy="-165" r="52" fill="#7A5236"/><path d="M30,-140 Q60,-150 84,-128 Q60,-100 30,-112Z" fill="#E8582F"/><circle cx="54" cy="-176" r="11" fill="#2B1B14"/><circle cx="57" cy="-180" r="4" fill="#fff"/><path d="M84,-170 L118,-160 L84,-152 Z" fill="#E9B44C"/><path d="M-50,-120 Q-10,-150 30,-110 Q-10,-70 -60,-80Z" fill="#5A3A24"/><ellipse cx="66" cy="-150" rx="12" ry="7" fill="#F2948A" opacity="0.5"/></g><g transform="translate(420.0,2330.0) rotate(-15) scale(1.2,1.2)"><path d="M0,0 Q30,-22 60,-10 Q70,-34 100,-30 Q100,-6 120,6 Q90,22 60,14 Q40,30 10,20 Q16,8 0,0Z" fill="#24603F" transform="rotate(-25)"/><path d="M0,0 Q30,-22 60,-10 Q70,-34 100,-30 Q100,-6 120,6 Q90,22 60,14 Q40,30 10,20 Q16,8 0,0Z" fill="#2F7A50" transform="scale(-1,1) rotate(-25)"/><circle cx="-10" cy="10" r="18" fill="#D3283A"/><circle cx="14" cy="14" r="18" fill="#D3283A"/><circle cx="2" cy="-8" r="18" fill="#E23A4A"/><circle cx="-4" cy="-14" r="5" fill="#fff" opacity="0.7"/></g><rect width="2588" height="2625" filter="url(#paper)" style="mix-blend-mode:soft-light"/><rect width="2588" height="2625" filter="url(#grain)" opacity="0.55"/></svg>
