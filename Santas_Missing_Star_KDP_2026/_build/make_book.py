@@ -68,7 +68,7 @@ def draw_art(c, name, side, label):
 
 
 def guides(c, side):
-    if MODE != "proof":
+    if MODE != "proof" or os.environ.get("GUIDES") == "0":
         return
     c.saveState(); c.setLineWidth(0.8); c.setDash(4, 3)
     b = B.BLEED * inch
@@ -243,7 +243,7 @@ def build():
     out_dir = os.path.join(ROOT, "06_Layout_Proof" if MODE == "proof" else "07_Print_Ready_PDF")
     os.makedirs(out_dir, exist_ok=True)
     name = "Layout_Proof_ART_PENDING.pdf" if MODE == "proof" else "Missing_Star_Interior_8.5x11_32pp_bleed.pdf"
-    path = os.path.join(out_dir, name)
+    path = os.environ.get("OUT_PDF") or os.path.join(out_dir, name)
     c = canvas.Canvas(path, pagesize=(PW, PH), initialFontName="Andika", initialFontSize=12)
     c.setTitle(B.TITLE + (" - LAYOUT PROOF (art pending)" if MODE == "proof" else ""))
     title_page(c)
