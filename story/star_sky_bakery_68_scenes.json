@@ -1,0 +1,1486 @@
+{
+  "project": {
+    "title": "The Star Sky Bakery",
+    "format": "2D anime animated short story",
+    "total_duration": "10:00",
+    "total_scenes": 68,
+    "aspect_ratio": "16:9"
+  },
+  "story_summary": "Twelve-year-old Hana spends her summer with her grandmother Setsuko in a small seaside village. She discovers the Hoshizora (Star Sky) Bakery, closed since her grandfather passed away, and his old recipe notebook with the legendary Star Melon Bread made for the summer Lantern Festival. With the help of Ren, a cheerful fisherman's son, and Mochi, a greedy orange stray cat, Hana cleans the bakery, fixes the brick oven and learns from Grandma that 'bread listens to your hands'. The grumpy fisherman Mr. Kuroda, Grandpa's best friend, opposes reopening until Mochi steals a bread and brings it to him, waking his memories. The night before the festival a typhoon breaks the bakery window and ruins the flour. Just as Hana gives up, Kuroda and the villagers arrive with supplies and bake together all night. At the festival the bread is a hit, Kuroda gives Hana Grandpa's star-shaped bread cutter, and everyone floats lanterns for the people they miss. Hana leaves at summer's end promising to return every year, and the bakery's light shines again.",
+  "visual_style_guide": {
+    "style_line": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design",
+    "palette": [
+      "sky blue #8EC9F0",
+      "cream #FFF4DF",
+      "peach #F7C59F",
+      "sea green #5FB3A1",
+      "golden yellow #F4C542",
+      "night navy #1E2A4A"
+    ],
+    "line_and_shading": "thin clean dark-brown ink outlines, 2-tone cel shading with soft gradient highlights, no heavy black shadows",
+    "backgrounds": "detailed hand-painted watercolor backgrounds, lots of plants, clouds and everyday-life details",
+    "lighting": "natural sunlight with bloom and floating light particles; warm lantern/firelight at night",
+    "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions",
+    "consistency_rule": "Always paste the style_line at the start of every prompt and each character's prompt_tag exactly as written."
+  },
+  "characters": [
+    {
+      "name": "Hana",
+      "role": "Main character, 12-year-old girl spending summer at her grandmother's seaside village",
+      "age": "12",
+      "face_hair": "shoulder-length dark brown hair with short straight bangs, small yellow star-shaped hair clip on the left side, big round amber eyes, light freckles on cheeks",
+      "outfit": "pale sky-blue short-sleeve sundress with a round white collar, white canvas sneakers, brown canvas satchel with a small lemon charm; wears a white flour-dusted apron when baking",
+      "colors": "sky blue, white, dark brown, yellow accent",
+      "personality": "curious, determined, a little shy, cries easily but never gives up",
+      "prompt_tag": "Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers)"
+    },
+    {
+      "name": "Grandma Setsuko",
+      "role": "Hana's grandmother, former baker of the closed Hoshizora Bakery",
+      "age": "72",
+      "face_hair": "silver hair in a low bun held by a wooden hairpin, round thin gold glasses, gentle smile lines, soft brown eyes",
+      "outfit": "mustard-yellow knit cardigan over a cream blouse, long chocolate-brown skirt, white apron with faded flour stains, brown slippers",
+      "colors": "mustard yellow, cream, chocolate brown",
+      "personality": "warm, patient, quietly sad about her late husband, funny",
+      "prompt_tag": "Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron)"
+    },
+    {
+      "name": "Ren",
+      "role": "Village boy, son of a fisherman, Hana's new friend",
+      "age": "13",
+      "face_hair": "messy spiky black hair, tanned skin, dark brown eyes, small bandage across the bridge of his nose",
+      "outfit": "faded green t-shirt, navy shorts, black rubber sandals, white fishing cap worn backwards",
+      "colors": "green, navy, white",
+      "personality": "loud, cheerful, good with tools, secretly kind",
+      "prompt_tag": "Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals)"
+    },
+    {
+      "name": "Mochi",
+      "role": "Chubby stray cat who lives around the bakery",
+      "age": "adult cat",
+      "face_hair": "round chubby orange tabby, white paws and white chest, tip of left ear slightly bent, big green eyes",
+      "outfit": "red collar with a small golden bell",
+      "colors": "orange, white, red",
+      "personality": "lazy, greedy for bread, loyal",
+      "prompt_tag": "Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell)"
+    },
+    {
+      "name": "Mr. Kuroda",
+      "role": "Grumpy old fisherman and village elder, was Grandpa's best friend",
+      "age": "58",
+      "face_hair": "short grey hair, grey stubble, thick eyebrows, deep frown lines, sun-browned skin",
+      "outfit": "dark navy rain jacket over a white undershirt, rolled grey work pants, tall black rubber boots, white towel tied as a headband",
+      "colors": "dark navy, white, grey, black",
+      "personality": "gruff and stubborn but soft-hearted",
+      "prompt_tag": "Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots)"
+    },
+    {
+      "name": "Villagers",
+      "role": "Background village people",
+      "age": "mixed",
+      "face_hair": "varied simple anime faces",
+      "outfit": "light summer clothes during the day; colorful yukata on festival night",
+      "colors": "soft pastels",
+      "personality": "friendly",
+      "prompt_tag": "friendly villagers in light summer clothes"
+    }
+  ],
+  "locations": {
+    "train": "a small two-car local train running along a seaside cliff railway",
+    "station": "a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background",
+    "street": "a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea",
+    "bakery_out": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+    "bakery_in": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+    "house": "grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table",
+    "hana_room": "Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf",
+    "market": "a lively seaside morning market with fish stalls, vegetable baskets and striped awnings",
+    "harbor": "a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier",
+    "hill": "a grassy hill above the village with a lone tree, overlooking the sea and rooftops",
+    "festival": "the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls",
+    "beach": "a quiet sandy beach beside the harbor at night, calm sea reflecting the moon"
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "act": 1,
+      "title": "The Seaside Train",
+      "timestamp": "00:00-00:09",
+      "duration_seconds": 9,
+      "story_beat": "Hana sits alone by the open train window, wind in her hair, holding her satchel, looking at the sparkling sea for the first time.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "a small two-car local train running along a seaside cliff railway",
+      "camera": "wide side shot of the train on the cliff, then medium shot through the window",
+      "lighting_mood": "bright summer morning, golden sunlight, hopeful",
+      "dialogue_narration": "Narration (Hana): 'The summer I turned twelve, Mom sent me to Grandma's village by the sea.'",
+      "sound_effects": "train clatter, wind, distant seagulls",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana sits alone by the open train window, wind in her hair, holding her satchel, looking at the sparkling sea for the first time. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: a small two-car local train running along a seaside cliff railway. Camera: wide side shot of the train on the cliff, then medium shot through the window. Lighting and mood: bright summer morning, golden sunlight, hopeful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. train moves left to right, Hana's hair and dress flutter in the wind, sea glitters. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 2,
+      "act": 1,
+      "title": "First Glimpse",
+      "timestamp": "00:09-00:18",
+      "duration_seconds": 9,
+      "story_beat": "Close-up of Hana's amber eyes widening as the train comes out of a tunnel and the whole village appears below.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "a small two-car local train running along a seaside cliff railway",
+      "camera": "close-up on eyes, then reveal over her shoulder",
+      "lighting_mood": "light flooding in after tunnel darkness, wonder",
+      "dialogue_narration": "",
+      "sound_effects": "tunnel whoosh, soft music swell",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Close-up of Hana's amber eyes widening as the train comes out of a tunnel and the whole village appears below. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: a small two-car local train running along a seaside cliff railway. Camera: close-up on eyes, then reveal over her shoulder. Lighting and mood: light flooding in after tunnel darkness, wonder.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. light sweeps across her face, eyes sparkle, camera pulls back to reveal village. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 3,
+      "act": 1,
+      "title": "Tiny Station",
+      "timestamp": "00:18-00:26",
+      "duration_seconds": 8,
+      "story_beat": "Hana steps off onto the empty wooden platform with her small suitcase; sunflowers sway beside a red mailbox.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background",
+      "camera": "wide shot, low angle from platform",
+      "lighting_mood": "hot bright midday, cicadas, slightly lonely",
+      "dialogue_narration": "Hana: 'Grandma...?'",
+      "sound_effects": "train doors closing, cicadas",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana steps off onto the empty wooden platform with her small suitcase; sunflowers sway beside a red mailbox. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background. Camera: wide shot, low angle from platform. Lighting and mood: hot bright midday, cicadas, slightly lonely.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. train pulls away behind her, sunflowers sway, Hana looks around. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 4,
+      "act": 1,
+      "title": "Grandma Waves",
+      "timestamp": "00:26-00:35",
+      "duration_seconds": 9,
+      "story_beat": "Grandma Setsuko appears at the end of the platform waving both hands, nearly losing her glasses.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background",
+      "camera": "medium shot from Hana's point of view",
+      "lighting_mood": "warm sunlight, heartwarming and funny",
+      "dialogue_narration": "Grandma: 'Hana-chan! Look how tall you've grown!'",
+      "sound_effects": "slippers tapping, cicadas",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Grandma Setsuko appears at the end of the platform waving both hands, nearly losing her glasses. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background. Camera: medium shot from Hana's point of view. Lighting and mood: warm sunlight, heartwarming and funny.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. grandma hurries and waves, glasses slip, she pushes them back up, laughing. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 5,
+      "act": 1,
+      "title": "The Hug",
+      "timestamp": "00:35-00:44",
+      "duration_seconds": 9,
+      "story_beat": "Hana runs and hugs her grandmother; Grandma pats her head gently.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background",
+      "camera": "medium close-up, slight orbit around them",
+      "lighting_mood": "soft backlight, sun flare, emotional warmth",
+      "dialogue_narration": "",
+      "sound_effects": "soft piano",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana runs and hugs her grandmother; Grandma pats her head gently. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background. Camera: medium close-up, slight orbit around them. Lighting and mood: soft backlight, sun flare, emotional warmth.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Hana runs into the hug, grandma closes her eyes and pats her head. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 6,
+      "act": 1,
+      "title": "Walk Through the Village",
+      "timestamp": "00:44-00:53",
+      "duration_seconds": 9,
+      "story_beat": "They walk up the sloping street; villagers greet Grandma, laundry flutters, the sea shines between houses.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Villagers"
+      ],
+      "setting": "a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea",
+      "camera": "wide tracking shot from behind, both walking uphill",
+      "lighting_mood": "late morning, breezy and lively",
+      "dialogue_narration": "Villager: 'Welcome back, Setsuko-san!'",
+      "sound_effects": "wind chimes, footsteps, chatter",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: They walk up the sloping street; villagers greet Grandma, laundry flutters, the sea shines between houses. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); friendly villagers in light summer clothes. Setting: a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea. Camera: wide tracking shot from behind, both walking uphill. Lighting and mood: late morning, breezy and lively.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. walking cycle uphill, laundry flutters, a villager waves from a window. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 7,
+      "act": 1,
+      "title": "The Closed Bakery",
+      "timestamp": "00:53-01:02",
+      "duration_seconds": 9,
+      "story_beat": "They stop at an old bakery with a faded 'Hoshizora Bakery' sign and closed blue shutters covered in dust.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "wide establishing shot, slight low angle on the sign",
+      "lighting_mood": "sunny but quiet, a touch of melancholy",
+      "dialogue_narration": "Hana: 'Hoshizora Bakery... Grandma, this was yours?'",
+      "sound_effects": "creaking sign in the wind",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: They stop at an old bakery with a faded 'Hoshizora Bakery' sign and closed blue shutters covered in dust. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: wide establishing shot, slight low angle on the sign. Lighting and mood: sunny but quiet, a touch of melancholy.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. faded sign swings gently, dust drifts in the light. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 8,
+      "act": 1,
+      "title": "Grandma's Memory",
+      "timestamp": "01:02-01:11",
+      "duration_seconds": 9,
+      "story_beat": "Grandma touches the shutter softly, smiling sadly as she remembers her late husband.",
+      "characters": [
+        "Grandma Setsuko"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "close-up of wrinkled hand on shutter, then her face",
+      "lighting_mood": "soft warm light, nostalgic",
+      "dialogue_narration": "Grandma: 'Your grandpa and I baked here for forty years. I closed it after he left us.'",
+      "sound_effects": "soft wind, gentle strings",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Grandma touches the shutter softly, smiling sadly as she remembers her late husband. Characters: Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: close-up of wrinkled hand on shutter, then her face. Lighting and mood: soft warm light, nostalgic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. hand slides along the dusty shutter, her eyes glisten behind glasses. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 9,
+      "act": 1,
+      "title": "Grandma's House",
+      "timestamp": "01:11-01:19",
+      "duration_seconds": 8,
+      "story_beat": "Inside grandma's house, a wind chime rings; Grandma serves cold barley tea on the low table.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table",
+      "camera": "medium shot from the open veranda",
+      "lighting_mood": "afternoon light through paper doors, calm",
+      "dialogue_narration": "Grandma: 'Drink up, it's hot today.'",
+      "sound_effects": "wind chime, ice clinking",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Inside grandma's house, a wind chime rings; Grandma serves cold barley tea on the low table. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table. Camera: medium shot from the open veranda. Lighting and mood: afternoon light through paper doors, calm.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. wind chime sways, condensation drips on glass, Hana sips. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 10,
+      "act": 1,
+      "title": "The Attic Room",
+      "timestamp": "01:19-01:28",
+      "duration_seconds": 9,
+      "story_beat": "Hana enters her attic room with a round window looking over the sea and drops her suitcase.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf",
+      "camera": "wide shot from the doorway",
+      "lighting_mood": "sunbeams with floating dust, peaceful",
+      "dialogue_narration": "Hana: 'Wow... I can see the whole sea!'",
+      "sound_effects": "floorboard creak, waves far away",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana enters her attic room with a round window looking over the sea and drops her suitcase. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf. Camera: wide shot from the doorway. Lighting and mood: sunbeams with floating dust, peaceful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Hana opens the round window, curtains billow, dust sparkles. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 11,
+      "act": 1,
+      "title": "Grandpa's Notebook",
+      "timestamp": "01:28-01:37",
+      "duration_seconds": 9,
+      "story_beat": "On the dusty bookshelf Hana finds a worn leather notebook titled 'Recipes of the Star Sky' with hand-drawn breads.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf",
+      "camera": "close-up insert of notebook pages, then Hana's surprised face",
+      "lighting_mood": "warm afternoon sunlight, discovery",
+      "dialogue_narration": "Hana (reading): 'Star Melon Bread... made for the Lantern Festival.'",
+      "sound_effects": "page turning",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: On the dusty bookshelf Hana finds a worn leather notebook titled 'Recipes of the Star Sky' with hand-drawn breads. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf. Camera: close-up insert of notebook pages, then Hana's surprised face. Lighting and mood: warm afternoon sunlight, discovery.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. pages flip in the breeze, drawings of bread glow softly. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 12,
+      "act": 1,
+      "title": "Meeting Mochi",
+      "timestamp": "01:37-01:46",
+      "duration_seconds": 9,
+      "story_beat": "A chubby orange cat climbs in through the round window and sniffs the notebook.",
+      "characters": [
+        "Hana",
+        "Mochi"
+      ],
+      "setting": "Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf",
+      "camera": "medium shot, cat silhouetted in round window",
+      "lighting_mood": "golden late-afternoon light, cute surprise",
+      "dialogue_narration": "Hana: 'Who are you? ...Mochi? That's what your bell tag says.'",
+      "sound_effects": "bell jingle, meow",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: A chubby orange cat climbs in through the round window and sniffs the notebook. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf. Camera: medium shot, cat silhouetted in round window. Lighting and mood: golden late-afternoon light, cute surprise.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. cat squeezes through the window, bell jingles, Hana giggles and reaches out. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 13,
+      "act": 2,
+      "title": "Dinner Promise",
+      "timestamp": "01:46-01:55",
+      "duration_seconds": 9,
+      "story_beat": "At dinner Hana shows the notebook and asks to reopen the bakery for the Lantern Festival in two weeks.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Mochi"
+      ],
+      "setting": "grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table",
+      "camera": "medium two-shot across the low table",
+      "lighting_mood": "warm lamplight evening, cicadas outside",
+      "dialogue_narration": "Hana: 'Grandma, let's reopen the bakery! Just for the festival!'",
+      "sound_effects": "chopsticks, crickets",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: At dinner Hana shows the notebook and asks to reopen the bakery for the Lantern Festival in two weeks. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table. Camera: medium two-shot across the low table. Lighting and mood: warm lamplight evening, cicadas outside.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Hana leans forward excitedly, Mochi steals a fish piece under the table. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 14,
+      "act": 2,
+      "title": "Grandma Hesitates",
+      "timestamp": "01:55-02:04",
+      "duration_seconds": 9,
+      "story_beat": "Grandma looks at the notebook, then at the photo of Grandpa on the shelf, and slowly nods.",
+      "characters": [
+        "Grandma Setsuko"
+      ],
+      "setting": "grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table",
+      "camera": "close-up on grandma, rack focus to framed photo",
+      "lighting_mood": "lamplight, emotional pause",
+      "dialogue_narration": "Grandma: '...He would have liked that.'",
+      "sound_effects": "clock ticking",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Grandma looks at the notebook, then at the photo of Grandpa on the shelf, and slowly nods. Characters: Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table. Camera: close-up on grandma, rack focus to framed photo. Lighting and mood: lamplight, emotional pause.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. she looks at photo, a soft smile spreads, she nods. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 15,
+      "act": 2,
+      "title": "Opening the Shutters",
+      "timestamp": "02:04-02:12",
+      "duration_seconds": 8,
+      "story_beat": "Next morning, Hana pulls the heavy shutters up with all her strength; dust bursts out.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "low angle from inside looking out",
+      "lighting_mood": "fresh morning light, energetic",
+      "dialogue_narration": "Hana: 'Hnngh... got it!'",
+      "sound_effects": "metal rattling, coughing",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Next morning, Hana pulls the heavy shutters up with all her strength; dust bursts out. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: low angle from inside looking out. Lighting and mood: fresh morning light, energetic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. shutter rolls up, light floods in, dust cloud puffs, Hana coughs. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 16,
+      "act": 2,
+      "title": "Big Cleaning",
+      "timestamp": "02:12-02:21",
+      "duration_seconds": 9,
+      "story_beat": "Cleaning montage: Hana scrubs the floor, Grandma polishes copper pans, Mochi chases a feather duster.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Mochi"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "quick montage of medium shots",
+      "lighting_mood": "bright and cheerful",
+      "dialogue_narration": "",
+      "sound_effects": "scrubbing, upbeat music",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Cleaning montage: Hana scrubs the floor, Grandma polishes copper pans, Mochi chases a feather duster. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: quick montage of medium shots. Lighting and mood: bright and cheerful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Hana scrubs with a bucket, grandma polishes, Mochi pounces on duster. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 17,
+      "act": 2,
+      "title": "A Loud Visitor",
+      "timestamp": "02:21-02:30",
+      "duration_seconds": 9,
+      "story_beat": "A boy on a rusty bicycle skids to a stop outside, staring at the open bakery.",
+      "characters": [
+        "Hana",
+        "Ren"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "medium shot, bike skids into frame",
+      "lighting_mood": "midday sun, comedic",
+      "dialogue_narration": "Ren: 'Whoa! The ghost bakery is open?!'",
+      "sound_effects": "bike brake squeak",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: A boy on a rusty bicycle skids to a stop outside, staring at the open bakery. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: medium shot, bike skids into frame. Lighting and mood: midday sun, comedic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. bike skids, dust kicks up, Ren pushes his cap back. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 18,
+      "act": 2,
+      "title": "Ren Introduces Himself",
+      "timestamp": "02:30-02:39",
+      "duration_seconds": 9,
+      "story_beat": "Ren grins and introduces himself; Hana is shy and hides half behind the door.",
+      "characters": [
+        "Hana",
+        "Ren"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "two-shot, Hana half behind doorframe",
+      "lighting_mood": "bright day, awkward but funny",
+      "dialogue_narration": "Ren: 'I'm Ren! My dad's a fisherman. You're Setsuko-baa's granddaughter?'",
+      "sound_effects": "seagulls",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Ren grins and introduces himself; Hana is shy and hides half behind the door. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: two-shot, Hana half behind doorframe. Lighting and mood: bright day, awkward but funny.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Ren grins widely, Hana peeks out then nods. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 19,
+      "act": 2,
+      "title": "The Broken Oven",
+      "timestamp": "02:39-02:48",
+      "duration_seconds": 9,
+      "story_beat": "Grandma tries to light the brick oven but it only puffs black smoke; Ren offers to fix it.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "medium shot in front of oven",
+      "lighting_mood": "smoky, comedic",
+      "dialogue_narration": "Ren: 'Leave it to me! I fix my dad's boat engine all the time.'",
+      "sound_effects": "puff, coughing",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Grandma tries to light the brick oven but it only puffs black smoke; Ren offers to fix it. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: medium shot in front of oven. Lighting and mood: smoky, comedic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. black smoke puffs out, everyone coughs, Ren rolls up his sleeves. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 20,
+      "act": 2,
+      "title": "Ren Fixes It",
+      "timestamp": "02:48-02:56",
+      "duration_seconds": 8,
+      "story_beat": "Ren crawls into the oven with a flashlight, soot all over his face; Hana passes him tools.",
+      "characters": [
+        "Ren",
+        "Hana"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close-up on Ren's sooty face, then two-shot",
+      "lighting_mood": "flashlight beam, funny teamwork",
+      "dialogue_narration": "Ren: 'Wrench! ...No, the other wrench!'",
+      "sound_effects": "clanking metal",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Ren crawls into the oven with a flashlight, soot all over his face; Hana passes him tools. Characters: Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close-up on Ren's sooty face, then two-shot. Lighting and mood: flashlight beam, funny teamwork.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Ren's legs stick out of oven, Hana hands tools, soot puffs. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 21,
+      "act": 2,
+      "title": "Fire Lit",
+      "timestamp": "02:56-03:05",
+      "duration_seconds": 9,
+      "story_beat": "The oven finally roars to life with a warm orange glow; Hana and Ren high-five.",
+      "characters": [
+        "Ren",
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close-up on fire then wide reaction",
+      "lighting_mood": "warm orange firelight, triumph",
+      "dialogue_narration": "Hana & Ren: 'Yes!'",
+      "sound_effects": "fire whoosh, crackling",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: The oven finally roars to life with a warm orange glow; Hana and Ren high-five. Characters: Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close-up on fire then wide reaction. Lighting and mood: warm orange firelight, triumph.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. flames bloom inside oven, they jump and high-five. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 22,
+      "act": 2,
+      "title": "First Attempt",
+      "timestamp": "03:05-03:14",
+      "duration_seconds": 9,
+      "story_beat": "Hana follows the notebook alone, measuring flour clumsily; flour explodes onto her face.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "medium shot over the counter",
+      "lighting_mood": "afternoon light, comedic",
+      "dialogue_narration": "Hana: 'Pfft! ...that wasn't in the recipe.'",
+      "sound_effects": "flour poof",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana follows the notebook alone, measuring flour clumsily; flour explodes onto her face. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: medium shot over the counter. Lighting and mood: afternoon light, comedic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. flour bag bursts, white cloud covers Hana's face, she blinks. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 23,
+      "act": 2,
+      "title": "Rock-Hard Bread",
+      "timestamp": "03:14-03:23",
+      "duration_seconds": 9,
+      "story_beat": "The first bread comes out flat and burnt; Ren knocks on it like a door; even Mochi refuses it.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Mochi"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close-up on burnt bread, then reactions",
+      "lighting_mood": "comedic, slightly disappointing",
+      "dialogue_narration": "Ren: 'Knock knock... it's a rock.'",
+      "sound_effects": "knocking sound, meow",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: The first bread comes out flat and burnt; Ren knocks on it like a door; even Mochi refuses it. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close-up on burnt bread, then reactions. Lighting and mood: comedic, slightly disappointing.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Ren knocks on bread, Mochi sniffs and turns away. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 24,
+      "act": 2,
+      "title": "Hana's Frustration",
+      "timestamp": "03:23-03:32",
+      "duration_seconds": 9,
+      "story_beat": "Hana sits on a flour sack, sad, hugging the notebook as evening falls.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "wide shot, Hana small in the frame",
+      "lighting_mood": "orange dusk light, blue shadows, lonely",
+      "dialogue_narration": "Hana: 'I can't do it like Grandpa...'",
+      "sound_effects": "distant waves",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana sits on a flour sack, sad, hugging the notebook as evening falls. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: wide shot, Hana small in the frame. Lighting and mood: orange dusk light, blue shadows, lonely.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. light fades from orange to blue, she hugs the notebook tighter. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 25,
+      "act": 2,
+      "title": "Grandma's Hands",
+      "timestamp": "03:32-03:41",
+      "duration_seconds": 9,
+      "story_beat": "Grandma puts her floury hands over Hana's and teaches her to knead slowly.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close-up on four hands kneading dough",
+      "lighting_mood": "warm lamp light, tender",
+      "dialogue_narration": "Grandma: 'Bread listens to your hands. Be gentle, be patient.'",
+      "sound_effects": "soft dough slapping, gentle piano",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Grandma puts her floury hands over Hana's and teaches her to knead slowly. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close-up on four hands kneading dough. Lighting and mood: warm lamp light, tender.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. hands push and fold dough in rhythm. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 26,
+      "act": 2,
+      "title": "Morning Market",
+      "timestamp": "03:41-03:49",
+      "duration_seconds": 8,
+      "story_beat": "Hana and Ren shop at the morning market for butter, eggs and sea salt; stalls are busy.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Villagers"
+      ],
+      "setting": "a lively seaside morning market with fish stalls, vegetable baskets and striped awnings",
+      "camera": "wide tracking shot through the market",
+      "lighting_mood": "bright early morning, lively",
+      "dialogue_narration": "Ren: 'Auntie! Your best eggs please!'",
+      "sound_effects": "market chatter, fish sizzling",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana and Ren shop at the morning market for butter, eggs and sea salt; stalls are busy. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); friendly villagers in light summer clothes. Setting: a lively seaside morning market with fish stalls, vegetable baskets and striped awnings. Camera: wide tracking shot through the market. Lighting and mood: bright early morning, lively.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. they weave through people, a vendor hands over eggs. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 27,
+      "act": 2,
+      "title": "Grumpy Kuroda",
+      "timestamp": "03:49-03:58",
+      "duration_seconds": 9,
+      "story_beat": "At the harbor Mr. Kuroda frowns at Hana when she asks for sea salt.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Mr. Kuroda"
+      ],
+      "setting": "a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier",
+      "camera": "low angle on Kuroda towering over the kids",
+      "lighting_mood": "harsh midday sun, tense",
+      "dialogue_narration": "Kuroda: 'That bakery should stay closed. Nothing will be the same without him.'",
+      "sound_effects": "waves against boats",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: At the harbor Mr. Kuroda frowns at Hana when she asks for sea salt. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots). Setting: a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier. Camera: low angle on Kuroda towering over the kids. Lighting and mood: harsh midday sun, tense.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Kuroda turns his back, coils rope angrily, Hana steps back. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 28,
+      "act": 2,
+      "title": "Ren Explains",
+      "timestamp": "03:58-04:07",
+      "duration_seconds": 9,
+      "story_beat": "Sitting on the pier edge, Ren explains Kuroda was Grandpa's best friend and misses him.",
+      "characters": [
+        "Hana",
+        "Ren"
+      ],
+      "setting": "a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier",
+      "camera": "wide shot from behind, legs dangling over water",
+      "lighting_mood": "soft afternoon light, reflective",
+      "dialogue_narration": "Ren: 'He used to eat Grandpa's bread every morning. He's just sad.'",
+      "sound_effects": "gentle waves, seagulls",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Sitting on the pier edge, Ren explains Kuroda was Grandpa's best friend and misses him. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier. Camera: wide shot from behind, legs dangling over water. Lighting and mood: soft afternoon light, reflective.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. legs swing, reflections ripple, seagull lands nearby. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 29,
+      "act": 2,
+      "title": "Practice Montage",
+      "timestamp": "04:07-04:16",
+      "duration_seconds": 9,
+      "story_beat": "Days pass: Hana practices again and again, the bread getting rounder and golden each time.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Ren",
+        "Mochi"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "montage with calendar pages flipping",
+      "lighting_mood": "alternating morning and evening light, determined",
+      "dialogue_narration": "",
+      "sound_effects": "upbeat montage music",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Days pass: Hana practices again and again, the bread getting rounder and golden each time. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: montage with calendar pages flipping. Lighting and mood: alternating morning and evening light, determined.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. calendar flips, trays of bread improve, Hana wipes sweat. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 30,
+      "act": 2,
+      "title": "Perfect Bread",
+      "timestamp": "04:16-04:25",
+      "duration_seconds": 9,
+      "story_beat": "Hana opens the oven and pulls out a tray of perfect golden star-shaped melon breads.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Ren",
+        "Mochi"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close-up hero shot of the bread tray with steam",
+      "lighting_mood": "golden glow, sparkles, triumph",
+      "dialogue_narration": "Hana: 'They're... they're perfect!'",
+      "sound_effects": "oven door creak, sizzling",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana opens the oven and pulls out a tray of perfect golden star-shaped melon breads. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close-up hero shot of the bread tray with steam. Lighting and mood: golden glow, sparkles, triumph.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. steam rises, sugar crust sparkles, everyone's eyes shine. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 31,
+      "act": 3,
+      "title": "First Taste",
+      "timestamp": "04:25-04:34",
+      "duration_seconds": 9,
+      "story_beat": "Everyone takes a bite; Ren's face melts in bliss; Grandma tears up.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Ren"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close-ups of each reaction",
+      "lighting_mood": "warm light, happy",
+      "dialogue_narration": "Ren: 'Mmmmm! This is the best thing ever!'",
+      "sound_effects": "crunch",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Everyone takes a bite; Ren's face melts in bliss; Grandma tears up. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close-ups of each reaction. Lighting and mood: warm light, happy.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. bite crunch, Ren's eyes sparkle, grandma wipes a tear. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 32,
+      "act": 3,
+      "title": "Mochi the Thief",
+      "timestamp": "04:34-04:42",
+      "duration_seconds": 8,
+      "story_beat": "Mochi snatches a melon bread and dashes out of the door.",
+      "characters": [
+        "Mochi",
+        "Hana"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "low angle at cat height",
+      "lighting_mood": "comedic, fast",
+      "dialogue_narration": "Hana: 'Mochi! That's for the festival!'",
+      "sound_effects": "bell jingling fast",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Mochi snatches a melon bread and dashes out of the door. Characters: Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: low angle at cat height. Lighting and mood: comedic, fast.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. cat grabs bread in mouth and sprints out. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 33,
+      "act": 3,
+      "title": "The Chase",
+      "timestamp": "04:42-04:51",
+      "duration_seconds": 9,
+      "story_beat": "Hana and Ren chase Mochi down the sloping street, past laundry and flower pots.",
+      "characters": [
+        "Mochi",
+        "Hana",
+        "Ren"
+      ],
+      "setting": "a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea",
+      "camera": "dynamic tracking shot downhill",
+      "lighting_mood": "bright afternoon, playful",
+      "dialogue_narration": "Ren: 'He's heading for the harbor!'",
+      "sound_effects": "running footsteps, laughter",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana and Ren chase Mochi down the sloping street, past laundry and flower pots. Characters: Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea. Camera: dynamic tracking shot downhill. Lighting and mood: bright afternoon, playful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. cat leaps over pots, kids dodge laundry lines. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 34,
+      "act": 3,
+      "title": "Mochi's Gift",
+      "timestamp": "04:51-05:00",
+      "duration_seconds": 9,
+      "story_beat": "Mochi drops the bread at Mr. Kuroda's boots; he picks it up suspiciously.",
+      "characters": [
+        "Mochi",
+        "Mr. Kuroda",
+        "Hana",
+        "Ren"
+      ],
+      "setting": "a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier",
+      "camera": "medium shot, Kuroda looking down at cat",
+      "lighting_mood": "late afternoon light, surprise",
+      "dialogue_narration": "Kuroda: '...Star Melon Bread?'",
+      "sound_effects": "bell jingle, waves",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Mochi drops the bread at Mr. Kuroda's boots; he picks it up suspiciously. Characters: Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier. Camera: medium shot, Kuroda looking down at cat. Lighting and mood: late afternoon light, surprise.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. cat sits proudly, Kuroda slowly picks up bread. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 35,
+      "act": 3,
+      "title": "Kuroda Takes a Bite",
+      "timestamp": "05:00-05:09",
+      "duration_seconds": 9,
+      "story_beat": "Kuroda takes a bite and freezes; his eyes soften as a memory flashes.",
+      "characters": [
+        "Mr. Kuroda"
+      ],
+      "setting": "a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier",
+      "camera": "extreme close-up of his eyes",
+      "lighting_mood": "warm sunset rim light, emotional",
+      "dialogue_narration": "",
+      "sound_effects": "single soft piano note",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Kuroda takes a bite and freezes; his eyes soften as a memory flashes. Characters: Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots). Setting: a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier. Camera: extreme close-up of his eyes. Lighting and mood: warm sunset rim light, emotional.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. his eyes widen then soften, wind moves his headband. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 36,
+      "act": 3,
+      "title": "Memory Flash",
+      "timestamp": "05:09-05:18",
+      "duration_seconds": 9,
+      "story_beat": "Sepia flashback: a young dark-haired fisherman (young Kuroda with white towel headband) and Grandpa (kind man with round glasses and a baker's hat) laughing at the bakery counter with bread.",
+      "characters": [],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "soft vignette flashback shot",
+      "lighting_mood": "sepia warm tones, nostalgic",
+      "dialogue_narration": "",
+      "sound_effects": "muffled laughter echo",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Sepia flashback: a young dark-haired fisherman (young Kuroda with white towel headband) and Grandpa (kind man with round glasses and a baker's hat) laughing at the bakery counter with bread. Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: soft vignette flashback shot. Lighting and mood: sepia warm tones, nostalgic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. faded image gently pulses and dissolves. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 37,
+      "act": 3,
+      "title": "Kuroda Walks Away",
+      "timestamp": "05:18-05:26",
+      "duration_seconds": 8,
+      "story_beat": "Kuroda says nothing, hides his face, and walks away holding the rest of the bread.",
+      "characters": [
+        "Mr. Kuroda",
+        "Hana",
+        "Ren",
+        "Mochi"
+      ],
+      "setting": "a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier",
+      "camera": "wide shot, his long shadow",
+      "lighting_mood": "sunset, bittersweet",
+      "dialogue_narration": "Ren (whisper): 'Did he... like it?'",
+      "sound_effects": "boots on concrete",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Kuroda says nothing, hides his face, and walks away holding the rest of the bread. Characters: Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: a small fishing harbor with colorful boats, coiled ropes, seagulls and a concrete pier. Camera: wide shot, his long shadow. Lighting and mood: sunset, bittersweet.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Kuroda walks off slowly, kids watch, Mochi licks paw. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 38,
+      "act": 3,
+      "title": "Lantern Making",
+      "timestamp": "05:26-05:35",
+      "duration_seconds": 9,
+      "story_beat": "That evening Grandma teaches Hana to make a paper lantern painted with a star.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table",
+      "camera": "close-up of hands painting, then medium shot",
+      "lighting_mood": "warm lamp light, cozy",
+      "dialogue_narration": "Grandma: 'On festival night, we float lanterns for people we miss.'",
+      "sound_effects": "brush strokes, crickets",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: That evening Grandma teaches Hana to make a paper lantern painted with a star. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: grandma's cozy old Japanese house with tatami floor, sliding paper doors, wind chime and a low table. Camera: close-up of hands painting, then medium shot. Lighting and mood: warm lamp light, cozy.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. brush paints a yellow star, paper glows from a candle. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 39,
+      "act": 3,
+      "title": "Hana Misses Home",
+      "timestamp": "05:35-05:44",
+      "duration_seconds": 9,
+      "story_beat": "Late night, Hana looks at her phone with a photo of her mom, feeling homesick; Mochi curls beside her.",
+      "characters": [
+        "Hana",
+        "Mochi"
+      ],
+      "setting": "Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf",
+      "camera": "medium shot from the round window",
+      "lighting_mood": "blue moonlight, quiet sadness",
+      "dialogue_narration": "Hana: 'I wish Mom could see this...'",
+      "sound_effects": "soft waves, purring",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Late night, Hana looks at her phone with a photo of her mom, feeling homesick; Mochi curls beside her. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: Hana's small attic bedroom with a round window facing the sea, futon, wooden desk and a dusty bookshelf. Camera: medium shot from the round window. Lighting and mood: blue moonlight, quiet sadness.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. moonlight shimmers, Mochi nuzzles her arm. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 40,
+      "act": 3,
+      "title": "Hill at Dawn",
+      "timestamp": "05:44-05:53",
+      "duration_seconds": 9,
+      "story_beat": "Ren takes Hana up the hill at dawn to see the whole village and sea glowing pink.",
+      "characters": [
+        "Hana",
+        "Ren"
+      ],
+      "setting": "a grassy hill above the village with a lone tree, overlooking the sea and rooftops",
+      "camera": "wide shot silhouettes under the tree",
+      "lighting_mood": "pink and gold sunrise, hopeful",
+      "dialogue_narration": "Ren: 'The festival is tomorrow! Everyone's talking about your bread.'",
+      "sound_effects": "birdsong, wind in grass",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Ren takes Hana up the hill at dawn to see the whole village and sea glowing pink. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: a grassy hill above the village with a lone tree, overlooking the sea and rooftops. Camera: wide shot silhouettes under the tree. Lighting and mood: pink and gold sunrise, hopeful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. grass waves, sun rises, light washes over village. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 41,
+      "act": 3,
+      "title": "Dark Clouds",
+      "timestamp": "05:53-06:02",
+      "duration_seconds": 9,
+      "story_beat": "Ren points at heavy dark clouds rolling in from the horizon.",
+      "characters": [
+        "Hana",
+        "Ren"
+      ],
+      "setting": "a grassy hill above the village with a lone tree, overlooking the sea and rooftops",
+      "camera": "wide shot of the sea horizon",
+      "lighting_mood": "light turning grey, ominous",
+      "dialogue_narration": "Ren: 'That's a storm... a big one.'",
+      "sound_effects": "distant thunder",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Ren points at heavy dark clouds rolling in from the horizon. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: a grassy hill above the village with a lone tree, overlooking the sea and rooftops. Camera: wide shot of the sea horizon. Lighting and mood: light turning grey, ominous.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. clouds roll in fast, tree branches bend. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 42,
+      "act": 3,
+      "title": "Storm Warning",
+      "timestamp": "06:02-06:11",
+      "duration_seconds": 9,
+      "story_beat": "Villagers hurry to close shutters; Kuroda ties down boats in rising wind.",
+      "characters": [
+        "Villagers",
+        "Mr. Kuroda"
+      ],
+      "setting": "a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea",
+      "camera": "quick cuts, medium shots",
+      "lighting_mood": "grey stormy afternoon, tense",
+      "dialogue_narration": "Villager: 'Typhoon's coming tonight!'",
+      "sound_effects": "wind howling, shutters banging",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Villagers hurry to close shutters; Kuroda ties down boats in rising wind. Characters: friendly villagers in light summer clothes; Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots). Setting: a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea. Camera: quick cuts, medium shots. Lighting and mood: grey stormy afternoon, tense.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. shutters slam, boats rock, people run. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 43,
+      "act": 3,
+      "title": "Storm Night",
+      "timestamp": "06:11-06:19",
+      "duration_seconds": 8,
+      "story_beat": "Rain hammers the bakery at night; the old sign swings violently.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "wide exterior shot through rain",
+      "lighting_mood": "dark blue night, lightning flashes, dramatic",
+      "dialogue_narration": "",
+      "sound_effects": "heavy rain, thunder crack",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Rain hammers the bakery at night; the old sign swings violently. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: wide exterior shot through rain. Lighting and mood: dark blue night, lightning flashes, dramatic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. rain sheets, lightning flashes, sign swings wildly. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 44,
+      "act": 3,
+      "title": "Window Breaks",
+      "timestamp": "06:19-06:28",
+      "duration_seconds": 9,
+      "story_beat": "A gust smashes a window; rain soaks the flour sacks; the lights go out.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Mochi"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "dramatic wide shot",
+      "lighting_mood": "darkness, cold blue flashes, panic",
+      "dialogue_narration": "Hana: 'The flour! It's getting wet!'",
+      "sound_effects": "glass shatter, wind roar",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: A gust smashes a window; rain soaks the flour sacks; the lights go out. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: dramatic wide shot. Lighting and mood: darkness, cold blue flashes, panic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. glass bursts, rain sprays in, lights flicker out, Mochi hides. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 45,
+      "act": 3,
+      "title": "All Is Lost",
+      "timestamp": "06:28-06:37",
+      "duration_seconds": 9,
+      "story_beat": "By candlelight Hana kneels next to ruined flour sacks, crying; Grandma holds her shoulders.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close-up on Hana's tears in candlelight",
+      "lighting_mood": "single candle, deep shadows, heartbreak",
+      "dialogue_narration": "Hana: 'Everything's ruined... the festival is tomorrow.'",
+      "sound_effects": "rain, quiet sobbing",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: By candlelight Hana kneels next to ruined flour sacks, crying; Grandma holds her shoulders. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close-up on Hana's tears in candlelight. Lighting and mood: single candle, deep shadows, heartbreak.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. candle flickers, tears fall onto wet flour. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 46,
+      "act": 3,
+      "title": "Knock at the Door",
+      "timestamp": "06:37-06:46",
+      "duration_seconds": 9,
+      "story_beat": "A loud knock; both turn toward the door as lightning flashes.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "medium shot from behind them facing the door",
+      "lighting_mood": "tense, lightning flash",
+      "dialogue_narration": "",
+      "sound_effects": "three loud knocks, thunder",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: A loud knock; both turn toward the door as lightning flashes. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: medium shot from behind them facing the door. Lighting and mood: tense, lightning flash.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. they turn, door rattles, lightning silhouette outside. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 47,
+      "act": 3,
+      "title": "Kuroda Arrives",
+      "timestamp": "06:46-06:55",
+      "duration_seconds": 9,
+      "story_beat": "Kuroda stands soaked in the doorway carrying dry flour sacks on his shoulder; Ren behind him with lanterns.",
+      "characters": [
+        "Mr. Kuroda",
+        "Ren",
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "low angle hero shot in the doorway",
+      "lighting_mood": "lantern glow against stormy darkness, hope",
+      "dialogue_narration": "Kuroda: 'Your grandpa never let a storm stop him. Neither will we.'",
+      "sound_effects": "rain, dramatic music swell",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Kuroda stands soaked in the doorway carrying dry flour sacks on his shoulder; Ren behind him with lanterns. Characters: Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: low angle hero shot in the doorway. Lighting and mood: lantern glow against stormy darkness, hope.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. rain drips from his jacket, he drops flour sacks, Ren raises lantern. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 48,
+      "act": 3,
+      "title": "Villagers Come",
+      "timestamp": "06:55-07:04",
+      "duration_seconds": 9,
+      "story_beat": "More villagers arrive with eggs, butter, wood and tape to fix the window.",
+      "characters": [
+        "Villagers",
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "wide shot, people filling the bakery",
+      "lighting_mood": "warm lantern light spreading, community",
+      "dialogue_narration": "Villager: 'We heard you needed help!'",
+      "sound_effects": "chatter, rain softer",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: More villagers arrive with eggs, butter, wood and tape to fix the window. Characters: friendly villagers in light summer clothes; Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: wide shot, people filling the bakery. Lighting and mood: warm lantern light spreading, community.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. people stream in, boards are nailed over the window. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 49,
+      "act": 3,
+      "title": "Baking by Lantern Light",
+      "timestamp": "07:04-07:12",
+      "duration_seconds": 8,
+      "story_beat": "Everyone bakes together through the night, the wood oven blazing warm orange.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Ren",
+        "Mr. Kuroda",
+        "Villagers"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "slow pan across the busy counter",
+      "lighting_mood": "warm orange firelight vs blue night, joyful",
+      "dialogue_narration": "",
+      "sound_effects": "kneading, laughter, crackling fire",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Everyone bakes together through the night, the wood oven blazing warm orange. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); friendly villagers in light summer clothes. Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: slow pan across the busy counter. Lighting and mood: warm orange firelight vs blue night, joyful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. hands knead, trays slide in, flames dance. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 50,
+      "act": 3,
+      "title": "Kuroda Kneads",
+      "timestamp": "07:12-07:21",
+      "duration_seconds": 9,
+      "story_beat": "Kuroda shows Hana Grandpa's old trick of folding the star shape; he smiles for the first time.",
+      "characters": [
+        "Mr. Kuroda",
+        "Hana"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "close two-shot over the dough",
+      "lighting_mood": "firelight, touching",
+      "dialogue_narration": "Kuroda: 'He taught me this. Fold, turn, press... like a star.'",
+      "sound_effects": "soft piano",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Kuroda shows Hana Grandpa's old trick of folding the star shape; he smiles for the first time. Characters: Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: close two-shot over the dough. Lighting and mood: firelight, touching.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. big rough hands fold dough into a star, Hana copies. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 51,
+      "act": 3,
+      "title": "Falling Asleep",
+      "timestamp": "07:21-07:30",
+      "duration_seconds": 9,
+      "story_beat": "Near dawn Hana and Ren fall asleep against flour sacks, Mochi on Hana's lap.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Mochi"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "wide calm shot",
+      "lighting_mood": "first pale dawn light, peaceful",
+      "dialogue_narration": "",
+      "sound_effects": "rain stopping, birds beginning",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Near dawn Hana and Ren fall asleep against flour sacks, Mochi on Hana's lap. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: wide calm shot. Lighting and mood: first pale dawn light, peaceful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. breathing rise and fall, Mochi's tail twitches. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 52,
+      "act": 4,
+      "title": "Storm Is Over",
+      "timestamp": "07:30-07:39",
+      "duration_seconds": 9,
+      "story_beat": "The morning after: clear blue sky, puddles reflecting the sun, villagers sweeping branches.",
+      "characters": [
+        "Villagers"
+      ],
+      "setting": "a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea",
+      "camera": "wide high-angle over the village",
+      "lighting_mood": "brilliant fresh morning, relief",
+      "dialogue_narration": "",
+      "sound_effects": "birdsong, dripping water",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: The morning after: clear blue sky, puddles reflecting the sun, villagers sweeping branches. Characters: friendly villagers in light summer clothes. Setting: a narrow sloping village street with tiled roofs, potted plants, hanging laundry and glimpses of the blue sea. Camera: wide high-angle over the village. Lighting and mood: brilliant fresh morning, relief.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. puddles sparkle, leaves drip, people sweep. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 53,
+      "act": 4,
+      "title": "Shelves Full",
+      "timestamp": "07:39-07:48",
+      "duration_seconds": 9,
+      "story_beat": "Hana wakes to see the shelves completely full of golden Star Melon Bread.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans",
+      "camera": "Hana's POV pan across shelves",
+      "lighting_mood": "bright golden morning light, wonder",
+      "dialogue_narration": "Hana: 'We did it...!'",
+      "sound_effects": "music swell",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana wakes to see the shelves completely full of golden Star Melon Bread. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the inside of a small wooden bakery with a big brick oven, wooden shelves, glass display case, flour sacks and hanging copper pans. Camera: Hana's POV pan across shelves. Lighting and mood: bright golden morning light, wonder.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. camera pans across shelves glowing in sunlight. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 54,
+      "act": 4,
+      "title": "The New Sign",
+      "timestamp": "07:48-07:56",
+      "duration_seconds": 8,
+      "story_beat": "Kuroda and Ren hang a freshly repainted 'Hoshizora Bakery' sign; Hana claps.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Mr. Kuroda"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "low angle on sign being lifted",
+      "lighting_mood": "bright day, proud",
+      "dialogue_narration": "Ren: 'Left! A little more left!'",
+      "sound_effects": "hammering",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Kuroda and Ren hang a freshly repainted 'Hoshizora Bakery' sign; Hana claps. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: low angle on sign being lifted. Lighting and mood: bright day, proud.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. sign is lifted and hung, paint shines. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 55,
+      "act": 4,
+      "title": "Festival Evening Begins",
+      "timestamp": "07:56-08:05",
+      "duration_seconds": 9,
+      "story_beat": "At dusk, hundreds of paper lanterns light up one by one along the street.",
+      "characters": [
+        "Villagers"
+      ],
+      "setting": "the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls",
+      "camera": "wide shot down the festival street",
+      "lighting_mood": "magic hour purple-orange sky, enchanting",
+      "dialogue_narration": "",
+      "sound_effects": "festival drums, chatter",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: At dusk, hundreds of paper lanterns light up one by one along the street. Characters: friendly villagers in light summer clothes. Setting: the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls. Camera: wide shot down the festival street. Lighting and mood: magic hour purple-orange sky, enchanting.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. lanterns light up in sequence toward camera. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 56,
+      "act": 4,
+      "title": "Festival Sash",
+      "timestamp": "08:05-08:14",
+      "duration_seconds": 9,
+      "story_beat": "Grandma ties a festival sash with little star patterns around Hana's sky-blue sundress; she touches her yellow star clip proudly.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls",
+      "camera": "medium shot, mirror reflection",
+      "lighting_mood": "warm lantern glow, sweet",
+      "dialogue_narration": "Grandma: 'You look just like me at your age.'",
+      "sound_effects": "festival music distant",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Grandma ties a festival sash with little star patterns around Hana's sky-blue sundress; she touches her yellow star clip proudly. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls. Camera: medium shot, mirror reflection. Lighting and mood: warm lantern glow, sweet.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. sash is tied, Hana twirls, dress swings. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 57,
+      "act": 4,
+      "title": "Bakery Stall",
+      "timestamp": "08:14-08:23",
+      "duration_seconds": 9,
+      "story_beat": "The bakery stall has a long line; Hana hands bread to children with a big smile.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Grandma Setsuko",
+        "Villagers"
+      ],
+      "setting": "the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls",
+      "camera": "medium wide shot of the stall",
+      "lighting_mood": "lantern light, busy and happy",
+      "dialogue_narration": "Hana: 'Star Melon Bread! Made with a smile!'",
+      "sound_effects": "crowd chatter, paper bags",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: The bakery stall has a long line; Hana hands bread to children with a big smile. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); friendly villagers in light summer clothes. Setting: the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls. Camera: medium wide shot of the stall. Lighting and mood: lantern light, busy and happy.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. hands exchange bread, kids bite and smile. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 58,
+      "act": 4,
+      "title": "Kuroda Returns",
+      "timestamp": "08:23-08:32",
+      "duration_seconds": 9,
+      "story_beat": "Kuroda, in his usual navy jacket, buys bread and quietly puts a small wooden box on the counter.",
+      "characters": [
+        "Mr. Kuroda",
+        "Hana"
+      ],
+      "setting": "the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls",
+      "camera": "medium two-shot across the stall",
+      "lighting_mood": "lantern glow, mysterious",
+      "dialogue_narration": "Kuroda: 'This was his. He'd want you to have it.'",
+      "sound_effects": "festival drums soften",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Kuroda, in his usual navy jacket, buys bread and quietly puts a small wooden box on the counter. Characters: Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls. Camera: medium two-shot across the stall. Lighting and mood: lantern glow, mysterious.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. he slides the box forward, Hana looks up surprised. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 59,
+      "act": 4,
+      "title": "Grandpa's Gift",
+      "timestamp": "08:32-08:41",
+      "duration_seconds": 9,
+      "story_beat": "Inside the box is Grandpa's old star-shaped bread cutter; Grandma covers her mouth, tearful.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls",
+      "camera": "insert close-up of the cutter, then faces",
+      "lighting_mood": "golden lantern glow, emotional",
+      "dialogue_narration": "Grandma: 'He made that the year we opened.'",
+      "sound_effects": "soft music box melody",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Inside the box is Grandpa's old star-shaped bread cutter; Grandma covers her mouth, tearful. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls. Camera: insert close-up of the cutter, then faces. Lighting and mood: golden lantern glow, emotional.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. lid opens, metal glints, grandma's tears shine. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 60,
+      "act": 4,
+      "title": "Fireworks",
+      "timestamp": "08:41-08:49",
+      "duration_seconds": 8,
+      "story_beat": "Fireworks burst above the sea; everyone looks up together.",
+      "characters": [
+        "Hana",
+        "Ren",
+        "Grandma Setsuko",
+        "Mr. Kuroda",
+        "Villagers"
+      ],
+      "setting": "the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls",
+      "camera": "wide shot from behind the group facing the sky",
+      "lighting_mood": "colorful firework light on faces, joyful",
+      "dialogue_narration": "",
+      "sound_effects": "firework booms, crowd 'ooh'",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Fireworks burst above the sea; everyone looks up together. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); friendly villagers in light summer clothes. Setting: the village street decorated for the summer lantern festival with rows of glowing paper lanterns and food stalls. Camera: wide shot from behind the group facing the sky. Lighting and mood: colorful firework light on faces, joyful.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. fireworks bloom, colors reflect on faces and sea. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 61,
+      "act": 4,
+      "title": "Lantern Walk",
+      "timestamp": "08:49-08:58",
+      "duration_seconds": 9,
+      "story_beat": "The group walks to the beach carrying their glowing paper lanterns.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Ren",
+        "Mr. Kuroda"
+      ],
+      "setting": "a quiet sandy beach beside the harbor at night, calm sea reflecting the moon",
+      "camera": "wide side tracking shot along the shore",
+      "lighting_mood": "night, moonlight and lantern glow",
+      "dialogue_narration": "",
+      "sound_effects": "waves, footsteps on sand",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: The group walks to the beach carrying their glowing paper lanterns. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots). Setting: a quiet sandy beach beside the harbor at night, calm sea reflecting the moon. Camera: wide side tracking shot along the shore. Lighting and mood: night, moonlight and lantern glow.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. lanterns sway as they walk, reflections on wet sand. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 62,
+      "act": 4,
+      "title": "Hana's Wish",
+      "timestamp": "08:58-09:07",
+      "duration_seconds": 9,
+      "story_beat": "Hana kneels at the water's edge and whispers to her star lantern.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "a quiet sandy beach beside the harbor at night, calm sea reflecting the moon",
+      "camera": "close-up on Hana's face lit by lantern",
+      "lighting_mood": "soft golden glow on blue night, intimate",
+      "dialogue_narration": "Hana: 'Grandpa, thank you for your recipes. I'll keep baking.'",
+      "sound_effects": "gentle waves, soft piano",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana kneels at the water's edge and whispers to her star lantern. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: a quiet sandy beach beside the harbor at night, calm sea reflecting the moon. Camera: close-up on Hana's face lit by lantern. Lighting and mood: soft golden glow on blue night, intimate.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. lantern flame flickers, her eyes close. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 63,
+      "act": 4,
+      "title": "Lanterns Float",
+      "timestamp": "09:07-09:16",
+      "duration_seconds": 9,
+      "story_beat": "Hundreds of lanterns float out to sea, forming a river of light under the moon.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Ren",
+        "Mr. Kuroda"
+      ],
+      "setting": "a quiet sandy beach beside the harbor at night, calm sea reflecting the moon",
+      "camera": "extreme wide shot over the sea",
+      "lighting_mood": "magical glowing night, bittersweet beauty",
+      "dialogue_narration": "",
+      "sound_effects": "orchestral swell",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hundreds of lanterns float out to sea, forming a river of light under the moon. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots). Setting: a quiet sandy beach beside the harbor at night, calm sea reflecting the moon. Camera: extreme wide shot over the sea. Lighting and mood: magical glowing night, bittersweet beauty.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. lanterns drift outward, glow ripples on water. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 64,
+      "act": 4,
+      "title": "Grandma and Hana",
+      "timestamp": "09:16-09:25",
+      "duration_seconds": 9,
+      "story_beat": "Grandma hugs Hana from behind as they watch the lanterns.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko"
+      ],
+      "setting": "a quiet sandy beach beside the harbor at night, calm sea reflecting the moon",
+      "camera": "medium shot from behind",
+      "lighting_mood": "moonlight, deep warmth",
+      "dialogue_narration": "Grandma: 'Thank you, Hana. The bakery is alive again.'",
+      "sound_effects": "waves",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Grandma hugs Hana from behind as they watch the lanterns. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron). Setting: a quiet sandy beach beside the harbor at night, calm sea reflecting the moon. Camera: medium shot from behind. Lighting and mood: moonlight, deep warmth.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. grandma's arms wrap around Hana, lantern glow on them. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 65,
+      "act": 4,
+      "title": "Ren's Question",
+      "timestamp": "09:25-09:34",
+      "duration_seconds": 9,
+      "story_beat": "Ren, embarrassed, asks if Hana will come back next summer; she smiles and nods.",
+      "characters": [
+        "Hana",
+        "Ren"
+      ],
+      "setting": "a quiet sandy beach beside the harbor at night, calm sea reflecting the moon",
+      "camera": "two-shot, Ren scratching his head",
+      "lighting_mood": "moonlight, sweet and shy",
+      "dialogue_narration": "Ren: 'So... you'll come back next summer, right?' Hana: 'Every summer.'",
+      "sound_effects": "waves, soft music",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Ren, embarrassed, asks if Hana will come back next summer; she smiles and nods. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals). Setting: a quiet sandy beach beside the harbor at night, calm sea reflecting the moon. Camera: two-shot, Ren scratching his head. Lighting and mood: moonlight, sweet and shy.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Ren rubs the back of his neck, Hana laughs and nods. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 66,
+      "act": 4,
+      "title": "Goodbye Morning",
+      "timestamp": "09:34-09:42",
+      "duration_seconds": 8,
+      "story_beat": "End of summer: everyone sees Hana off at the station; Grandma gives her a bag of bread.",
+      "characters": [
+        "Hana",
+        "Grandma Setsuko",
+        "Ren",
+        "Mr. Kuroda",
+        "Mochi"
+      ],
+      "setting": "a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background",
+      "camera": "wide shot on the platform",
+      "lighting_mood": "late-summer morning light, bittersweet",
+      "dialogue_narration": "Grandma: 'Bake for your mother too.'",
+      "sound_effects": "train approaching, cicadas fading",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: End of summer: everyone sees Hana off at the station; Grandma gives her a bag of bread. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers); Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Ren (13-year-old boy, messy spiky black hair, tanned skin, bandage on nose bridge, faded green t-shirt, navy shorts, white cap worn backwards, black sandals); Mr. Kuroda (58-year-old fisherman, short grey hair, grey stubble, thick eyebrows, white towel headband, dark navy rain jacket, grey pants, black rubber boots); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: a tiny wooden countryside station platform with a red mailbox and sunflowers, sea in the background. Camera: wide shot on the platform. Lighting and mood: late-summer morning light, bittersweet.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Ren waves his cap, Mochi sits on Kuroda's boot. Smooth 2D anime motion, keep character designs and outfits exactly the same, 8 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 67,
+      "act": 4,
+      "title": "Train Departs",
+      "timestamp": "09:42-09:51",
+      "duration_seconds": 9,
+      "story_beat": "Hana waves from the window holding the notebook and the star cutter as the train leaves.",
+      "characters": [
+        "Hana"
+      ],
+      "setting": "a small two-car local train running along a seaside cliff railway",
+      "camera": "medium shot through window, then wide train on cliff",
+      "lighting_mood": "golden light, nostalgic",
+      "dialogue_narration": "Narration (Hana): 'That summer I learned bread listens to your hands... and to your heart.'",
+      "sound_effects": "train clatter, music",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Hana waves from the window holding the notebook and the star cutter as the train leaves. Characters: Hana (12-year-old girl, shoulder-length dark brown hair with short bangs, yellow star hair clip on left side, big amber eyes, light freckles, pale sky-blue sundress with round white collar, white sneakers). Setting: a small two-car local train running along a seaside cliff railway. Camera: medium shot through window, then wide train on cliff. Lighting and mood: golden light, nostalgic.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. train pulls away, Hana waves until the village is small. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    },
+    {
+      "scene": 68,
+      "act": 4,
+      "title": "Bakery Lights",
+      "timestamp": "09:51-10:00",
+      "duration_seconds": 9,
+      "story_beat": "Final shot: at night the Hoshizora Bakery sign glows warmly, Grandma sweeping, Mochi asleep on the bench, a sign reads 'Open'.",
+      "characters": [
+        "Grandma Setsuko",
+        "Mochi"
+      ],
+      "setting": "the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench",
+      "camera": "slow pull-back wide shot under starry sky",
+      "lighting_mood": "starry night, warm window light, peaceful ending",
+      "dialogue_narration": "",
+      "sound_effects": "crickets, gentle closing theme",
+      "image_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. Scene: Final shot: at night the Hoshizora Bakery sign glows warmly, Grandma sweeping, Mochi asleep on the bench, a sign reads 'Open'. Characters: Grandma Setsuko (72-year-old woman, silver hair in low bun with wooden hairpin, round gold glasses, mustard-yellow cardigan over cream blouse, long brown skirt, white apron); Mochi (chubby orange tabby cat, white paws and chest, bent left ear tip, green eyes, red collar with golden bell). Setting: the outside of an old two-story wooden bakery with a faded sign reading 'Hoshizora Bakery', blue shutters and a little bench. Camera: slow pull-back wide shot under starry sky. Lighting and mood: starry night, warm window light, peaceful ending.",
+      "animation_prompt": "2D hand-drawn Japanese anime style, cozy slice-of-life film look, clean thin ink lines, soft cel shading with gentle gradients, painterly watercolor backgrounds full of detail, warm pastel palette (sky blue, cream, peach, sea green, golden yellow), soft bloom and light particles, expressive large eyes, 16:9 cinematic frame, consistent character design. camera slowly pulls back, stars twinkle, window light glows. Smooth 2D anime motion, keep character designs and outfits exactly the same, 9 seconds.",
+      "negative_prompt": "3D render, CGI, photorealistic, realistic skin, extra fingers, deformed hands, distorted face, inconsistent outfit, different hairstyle, blurry, low resolution, text, watermark, logo, signature, oversaturated, dark horror tone, chibi proportions"
+    }
+  ]
+}
